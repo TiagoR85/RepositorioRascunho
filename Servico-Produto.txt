@@ -13,8 +13,8 @@ Serviço/produto:{
 	valorCobrado,
 	ordemServiço, <-numero da ordem de serviço que o cliente emitiu para alugar
 	observacoes,
-	gorjeta, <-precisa ser no serviço??
 	motorista,
+	nfeServicoMotorista,
 	veiculo,
 	valorTotal,
 	statusPagamento,
