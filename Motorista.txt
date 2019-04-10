@@ -1,0 +1,5 @@
+Motorista:{
+	id,
+	veiculos:[],
+	codMotorista
+}

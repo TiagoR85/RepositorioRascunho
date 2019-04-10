@@ -1,0 +1,11 @@
+PessoaFisica:{
+	cpf,
+	dataNascimento,
+	genero
+}
+
+PessoaJuridica:{
+	cnpj,
+	razaoSocial,
+	IE
+}

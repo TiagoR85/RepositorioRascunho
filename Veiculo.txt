@@ -1,0 +1,10 @@
+Veiculo:{
+	id,
+	marca,
+	modelo,
+	placa,
+	cidade,
+	disponibilidade,
+	ano,
+	Motorista
+}

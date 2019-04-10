@@ -1,0 +1,10 @@
+﻿Cadastro:{
+	id	
+	nomeCompleto,
+	endereco:[],
+	email:[],
+	telefone:[],
+	dataInclusao,
+	dataAlteracao,
+	dataExclusao
+}

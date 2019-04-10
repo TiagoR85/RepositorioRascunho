@@ -1,0 +1,6 @@
+Cidade:{
+	idIbge,
+	uf,
+	nome,
+	pais
+}

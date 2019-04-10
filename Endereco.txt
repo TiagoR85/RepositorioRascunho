@@ -1,0 +1,9 @@
+Endereco:{
+	id,
+	logradouro,
+	numero,
+	bairro,
+	complemento,
+	cep,
+	cidade
+}
