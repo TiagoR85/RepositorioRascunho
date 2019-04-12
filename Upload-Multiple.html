@@ -44,7 +44,7 @@
     }
     function handleFileSelect(evt) {
       var files = evt.target.files; // FileList object
-      var file = files[0];
+	  var file = files[0];
       // read the file metadata
       var output = ''
           output += '<span style="font-weight:bold;">' + escape(file.name) + '</span><br />\n';
@@ -61,8 +61,9 @@
       reader.readAsText(file);
       reader.onload = function(event){
         var csv = event.target.result;
+		<!-- console.log(csv); -->
         var data = $.csv.toArrays(csv);
-        var html = '';
+		var html = '';
         for(var row in data) {
           html += '<tr>\r\n';
           for(var item in data[row]) {
